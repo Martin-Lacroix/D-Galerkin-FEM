@@ -1,4 +1,4 @@
-# Multiphysics Project
+# D-Galerkin-FEM
 
 Algorithm developped for the **Multiphysics Integrated Computational Project**. The project consists in the implementation of a discontinuous Galerkin finite element solver for acoustic waves on 3-dimensional complex and unstructured meshes using the Gmsh library.
 
