@@ -13,6 +13,7 @@ The path-to-project is the path to the gmsh.lib located in the include folder. T
 ```css
 .\dgalerkin.exe path-to-project\mesh\mesh.msh path-to-project\mesh\config.conf
 ```
+The output dgalerkin.msh can then be opened in your Gmsh application to visualize the solution.
 
 ## Authors
 
