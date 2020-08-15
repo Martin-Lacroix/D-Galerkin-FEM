@@ -4,7 +4,7 @@ Algorithm developped for the **Multiphysics Integrated Computational Project**. 
 
 ## Use
 
-First, make sure that the Eigen library is installed and that your GCC supports OpenMP. Then move to the code folder and compile the project by providing the Eigen path to the compiler (write on the same line). The path-to-project\include\ is the path to the gmsh.lib located in the include folder.
+First, make sure that the Eigen library is installed and that your GCC supports OpenMP. Then move to the code folder and compile the project by providing the Eigen path to the compiler (write on the same line). The path-to-project is the path to the main folder containing gmsh.lib in the include folder.
 ```css
 g++ -O2 configParser.cpp utils.cpp Mesh.cpp solver.cpp dgalerkin.cpp -fopenmp
 -I C:\ProgramData\Eigen -L path-to-project\include\ -lgmsh -o ..\dgalerkin.exe
