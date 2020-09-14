@@ -10,6 +10,10 @@
 
 using namespace std;
 
+// Compilation with the terminal
+// g++ -O2 configParser.cpp utils.cpp Mesh.cpp solver.cpp dgalerkin.cpp -fopenmp
+// -I path-to-Eigen\Eigen -L path-to-project\include\ -lgmsh -o ..\dgalerkin.exe
+
 int main(int argc,char**argv){
 
     if(argc!=3){return E2BIG;}
