@@ -286,7 +286,7 @@ Mesh::Mesh(string name,Config config) : name(name),config(config){
 
     // Iterate over the physical boundaries and over each nodes belonging to that boundary
     // Retrieve the associated face and assign it an unique integer representing the BC type
-    //Default = Absorbing, 1 = Reflecting, 2 = Absorbing
+    // Default = Absorbing, 1 = Reflecting, 2 = Absorbing
      
     m_fBC.resize(m_fNum);
     vector<int> nodeTags;
